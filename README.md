@@ -15,7 +15,8 @@ To get started using Sqlite-Crud-Repository you'll need to configure two classes
 		SqliteCrudManager crudManager = new SqliteCrudManager();
 		crudManager.registerEntity(User.class);
 		crudManager.registerEntity(Event.class);
-		crudManager.registerEntity(SignedInLog.class);
+		// register ALL entities that will be used
+		...
 		crudManager.updateSchema(true);
 		return crudManager;
 	}
