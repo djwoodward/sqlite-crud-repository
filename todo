@@ -1,0 +1,6 @@
+add support for changing column type
+support paging queries
+support selects by other fields than just id
+support table joins
+support more flexible objects including immutable objects
+support other java types - double, instant
