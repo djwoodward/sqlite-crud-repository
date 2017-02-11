@@ -21,7 +21,7 @@ To get started using Sqlite-Crud-Repository you'll need to configure two classes
 	}
 ```
 #### 2. SqliteCrudRepository  
-  * The interface too all operations on the Sqlite database
+  * The interface to all operations on the Sqlite database
   * Operations: create, read, update, and delete.
 ```java
 	@Bean
